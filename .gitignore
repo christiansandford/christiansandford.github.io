@@ -1,15 +1,15 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-cdog_website/node_modules
-cdog_website/.pnp
+/node_modules
+/.pnp
 .pnp.js
 
 # testing
-cdog_website/coverage
+/coverage
 
 # production
-cdog_website/build
+/build
 
 # misc
 .DS_Store
