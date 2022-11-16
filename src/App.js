@@ -6,7 +6,7 @@ function App() {
   return (
     <Box>
       <ResponsiveAppBar />
-      <Box>
+      <Box backgroundColor="default" textAlign="center">
         <h2>
           <u>Tech Employment History</u>
         </h2>
@@ -15,7 +15,7 @@ function App() {
         <h4>Accomplishments</h4>
         <li>Worked on Advisor Workbench Software</li>
         <li>Unit Testing</li>
-        <li>Client Support Tickets</li>
+        <li>Application Support Tickets</li>
         <li>Completed SAFE Agile training and acquired certification</li>
         <h4>Tech Stack</h4>
         <li>JavaScript, ReactJS</li>
