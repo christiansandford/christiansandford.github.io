@@ -13,9 +13,9 @@ function ResumePage() {
         </Box>
         <Box display="flex" justifyContent="center">
           <img src={GMLogo} alt="gm_logo" width="100" height="100" />
-          <Box marginLeft={1}>
-            <Typography variant="h3">General Motors (July 2021 - Present)</Typography>
-            <Typography variant="h4">Role: Software Developer - Full Stack</Typography>
+          <Box display="flex" flexDirection="column" marginLeft={1}>
+            <Typography variant="p1">General Motors (July 2021 - Present)</Typography>
+            <Typography variant="p2">Role: Software Developer - Full Stack</Typography>
           </Box>
         </Box>
         <Box display="flex" flex-direction="column" justifyContent="center" alignItems="center" px={2}>
