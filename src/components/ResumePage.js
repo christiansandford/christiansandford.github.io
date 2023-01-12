@@ -53,7 +53,7 @@ function ResumePage() {
         width="80%"
         justifyContent="center"
         sx={{
-          backgroundColor: '#b7410e',
+          backgroundColor: '#ff8b13',
           height:250,
           borderRadius: 2,
           marginTop: 2,
@@ -76,7 +76,14 @@ function ResumePage() {
           <LinkedInIcon />
         </IconButton>
       </Box>
-      <Card sx={{ width: 300, height: 300, marginTop: 2, marginLeft: "30%"}}>
+      <Card
+        sx={{
+          backgroundColor: '#ff8b13',
+          width: 300,
+          height: 300,
+          marginTop: 2,
+          marginLeft: "30%"
+        }}>
         Work History
       </Card>
     </Box>
