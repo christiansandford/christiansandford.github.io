@@ -10,7 +10,7 @@ function App() {
   const [activePage, setActivePage] = useState('Resume'); // keep track of the active page for conditional rendering
 
   return (
-    <Box>
+    <Box height="100%">
       <ResponsiveAppBar setActivePage={setActivePage} />
       {activePage == 'Resume' && <ResumePage />}
       {activePage == 'Games' && <GamesPage />}

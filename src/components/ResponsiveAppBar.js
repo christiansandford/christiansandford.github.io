@@ -1,12 +1,21 @@
 import * as React from "react";
 import { AppBar, Box, Button, MenuItem } from "@mui/material";
+import { createTheme } from '@mui/material/styles';
+import { blue, orange } from '@mui/material/colors';
 import Toolbar from "@mui/material/Toolbar";
-import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import AdbIcon from "@mui/icons-material/Adb";
 
 const pages = ["Resume", "Books", "Games"];
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#ff8b13', // burnt orange
+    }
+  },
+})
 
 function ResponsiveAppBar({ setActivePage }) {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -17,7 +26,7 @@ function ResponsiveAppBar({ setActivePage }) {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" color='primary' theme={theme}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />

@@ -20,6 +20,7 @@ function BooksPage() {
       <Grid item>
         <Card
           sx={{
+            backgroundColor: "#cf4dce",
             borderRadius: 6,
             height: 500,
             maxWidth: 500,
