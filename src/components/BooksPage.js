@@ -18,14 +18,22 @@ function BooksPage() {
       justifyContent="center"
     >
       <Grid item>
-        <Card sx={{ maxWidth: 345 }}>
+        <Card
+          sx={{
+            borderRadius: 6,
+            height: 500,
+            maxWidth: 500,
+            marginTop: "20px",
+            width: 500
+          }}
+        >
           <CardHeader
             title="The Gangs of Nexon"
             subheader={gonDescription}
             sx={{ textAlign: "center" }}
           />
           <CardMedia 
-            sx={{ height: 250 }}
+            sx={{ height: 325, marginX: 10 }}
             image={GoNCover}
             title="Gangs of Nexon"
           />
