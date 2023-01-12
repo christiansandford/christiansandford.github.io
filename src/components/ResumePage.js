@@ -1,5 +1,6 @@
 import React from "react";
-import { Avatar, Box, Card, List, ListItemText, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, IconButton, List, ListItemText, Typography } from "@mui/material";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GMLogo from "../img/general-motors-logo.png"
 import ChristianPic from "../img/christian_pic.jpg"
 
@@ -45,16 +46,18 @@ const oldPage = (    <Box display="flex" flexDirection="column" backgroundColor=
  */
 function ResumePage() {
   return (
-    <>
+    <Box display="flex" flexDirection="column" justifyContent="center">
       <Box
         aria-label="resume-page-header"
         display="flex"
-        width="100%"
+        width="80%"
+        justifyContent="center"
         sx={{
           backgroundColor: '#b7410e',
           height:250,
           borderRadius: 2,
           marginTop: 2,
+          marginLeft: "10%",
         }}
       >
         <Avatar
@@ -69,11 +72,14 @@ function ResumePage() {
         <Typography variant="h1">
           Christian Sandford
         </Typography>
+        <IconButton sx={{ width: 200, height: 200 }}>
+          <LinkedInIcon />
+        </IconButton>
       </Box>
-      <Card sx={{ width: 300, height: 300, marginTop: 2}}>
+      <Card sx={{ width: 300, height: 300, marginTop: 2, marginLeft: "30%"}}>
         Work History
       </Card>
-    </>
+    </Box>
   )
 }
 
