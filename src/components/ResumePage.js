@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Box, Button, Card, IconButton, List, ListItemText, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardMedia, IconButton, List, ListItemText, Typography } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GMLogo from "../img/general-motors-logo.png"
 import ChristianPic from "../img/christian_pic.jpg"
@@ -78,13 +78,21 @@ function ResumePage() {
       </Box>
       <Card
         sx={{
-          backgroundColor: '#ff8b13',
+          borderRadius: 6,
           width: 300,
           height: 300,
           marginTop: 2,
-          marginLeft: "30%"
+          marginLeft: "30%",
+          textAlign: "center",
         }}>
-        Work History
+        <CardMedia
+          sx={{ height: 150, width: 150, marginX: 10, marginTop: 2 }}
+          image={GMLogo}
+          title="General Motors"
+        />
+        <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
+          General Motors
+        </Typography>
       </Card>
     </Box>
   )
