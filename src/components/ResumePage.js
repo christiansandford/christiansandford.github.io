@@ -72,15 +72,22 @@ function ResumePage() {
           }}
         >
         </Avatar>
-        <Typography variant="h1">
-          Christian Sandford
-        </Typography>
-        <IconButton sx={{ width: 200, height: 200 }}>
-          <LinkedInIcon />
-        </IconButton>
-        <IconButton sx={{ width: 200, height: 200 }}>
-          <GitHubIcon />
-        </IconButton>
+        <Box display="flex" flexDirection="column">
+          <Typography variant="h1">
+            Christian Sandford
+          </Typography>
+          <Typography variant="subtitle1" marginLeft={3}>
+            christian.sandford25@gmail.com
+          </Typography>
+          <Box margin={3}>
+            <IconButton size="large">
+              <LinkedInIcon />
+            </IconButton>
+            <IconButton size="large">
+              <GitHubIcon />
+            </IconButton>
+          </Box>
+        </Box>
       </Box>
       <Card
         sx={{
