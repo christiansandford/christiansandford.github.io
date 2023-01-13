@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.08f503a3.css",
-    "main.js": "/static/js/main.b38acd1c.js",
+    "main.css": "/static/css/main.394a9e50.css",
+    "main.js": "/static/js/main.987569aa.js",
     "static/js/787.0c7d732c.chunk.js": "/static/js/787.0c7d732c.chunk.js",
+    "static/media/gangs_of_nexon_cover.png": "/static/media/gangs_of_nexon_cover.ce7c34596b38d85931dd.png",
+    "static/media/christian_pic.jpg": "/static/media/christian_pic.06f290a91c349ebf0e43.jpg",
+    "static/media/cosmic_phoebe.png": "/static/media/cosmic_phoebe.6d31c3fc2e7121bb368a.png",
+    "static/media/ttu_logo.png": "/static/media/ttu_logo.09cbb9177f2c135687a7.png",
+    "static/media/general_motors_logo.png": "/static/media/general_motors_logo.6a27dd6fdf20d120dad6.png",
     "index.html": "/index.html",
-    "main.08f503a3.css.map": "/static/css/main.08f503a3.css.map",
-    "main.b38acd1c.js.map": "/static/js/main.b38acd1c.js.map",
+    "main.394a9e50.css.map": "/static/css/main.394a9e50.css.map",
+    "main.987569aa.js.map": "/static/js/main.987569aa.js.map",
     "787.0c7d732c.chunk.js.map": "/static/js/787.0c7d732c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08f503a3.css",
-    "static/js/main.b38acd1c.js"
+    "static/css/main.394a9e50.css",
+    "static/js/main.987569aa.js"
   ]
 }
