@@ -2,7 +2,9 @@ import React from "react";
 import { Avatar, Box, Button, Card, CardContent, CardMedia, IconButton, List, ListItemText, Typography } from "@mui/material";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GMLogo from "../img/general-motors-logo.png"
+import GMLogo from "../img/general_motors_logo.png"
+import TTULogo from "../img/ttu_logo.png"
+import CosmicPhoebe from "../img/cosmic_phoebe.png"
 import ChristianPic from "../img/christian_pic.jpg"
 
 // storage for the old resume page - delete later
@@ -89,40 +91,94 @@ function ResumePage() {
           </Box>
         </Box>
       </Box>
-      <Card
-        sx={{
-          borderRadius: 6,
-          width: 500,
-          height: 500,
-          marginTop: 2,
-          marginLeft: "20%",
-          textAlign: "center",
-        }}>
-        <CardMedia
-          sx={{ height: 150, width: 150, marginX: 21, marginTop: 2 }}
-          image={GMLogo}
-          title="General Motors"
-        />
-        <CardContent>
-          <Typography variant="h4" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
-            General Motors
-          </Typography>
-          <Typography variant="body1" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
-            Software Developer - Full Stack
-          </Typography>
-          <Typography variant="subtitle1">
-            July 2021 - Present
-          </Typography>
-          <Box border={1}>
-            <List>
-              <ListItemText>Worked on Advisor Workbench Software</ListItemText>
-              <ListItemText>Unit testing</ListItemText>
-              <ListItemText>Application support tickets</ListItemText>
-              <ListItemText>Completed SAFE Agile training and acquired certification</ListItemText>
-            </List>
-          </Box>
-        </CardContent>
-      </Card>
+      <Box display="flex" flexDirection="row">
+        <Card
+          aria-label='gm-card'
+          sx={{
+            borderRadius: 6,
+            width: 500,
+            height: 500,
+            marginTop: 2,
+            marginLeft: "10%",
+            textAlign: "center",
+          }}>
+          <CardMedia
+            sx={{ height: 150, width: 150, marginX: 21, marginTop: 2 }}
+            image={GMLogo}
+            title="General Motors"
+          />
+          <CardContent>
+            <Typography variant="h4" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+              General Motors
+            </Typography>
+            <Typography variant="body1" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+              Software Developer - Full Stack
+            </Typography>
+            <Typography variant="subtitle1">
+              July 2021 - Present
+            </Typography>
+            <Box border={1}>
+              <List>
+                <ListItemText>Worked on Advisor Workbench Software</ListItemText>
+                <ListItemText>Unit testing</ListItemText>
+                <ListItemText>Application support tickets</ListItemText>
+                <ListItemText>Completed SAFE Agile training and acquired certification</ListItemText>
+              </List>
+            </Box>
+          </CardContent>
+        </Card>
+        <Card
+          aria-label='education-card'
+          sx={{
+            borderRadius: 6,
+            width: 500,
+            height: 500,
+            marginTop: 2,
+            marginLeft: 8,
+            textAlign: "center",
+          }}>
+          <CardMedia
+            sx={{ height: 150, width: 150, marginX: 21, marginTop: 2 }}
+            image={TTULogo}
+            title="Texas Tech University"
+          />
+          <CardContent>
+            <Typography variant="h4" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+              Texas Tech University
+            </Typography>
+            <Typography variant="body1" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+              B.S. Mathematics
+            </Typography>
+            <Typography variant="subtitle2">
+              Economics Minor
+            </Typography>
+            <Typography variant="subtitle2">
+              Graduated December 2020
+            </Typography>
+          </CardContent>
+        </Card>
+        <Card
+          aria-label='skills-and-facts-card'
+          sx={{
+            borderRadius: 6,
+            width: 500,
+            height: 500,
+            marginTop: 2,
+            marginLeft: 10,
+            textAlign: "center",
+          }}>
+          <CardMedia
+            sx={{ height: 150, width: 150, marginX: 21, marginTop: 2 }}
+            image={CosmicPhoebe}
+            title="Cosmic Phoebe"
+          />
+          <CardContent>
+            <Typography variant="h4" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+              Other Skills and Facts
+            </Typography>
+          </CardContent>
+        </Card>
+      </Box>
     </Box>
   )
 }
