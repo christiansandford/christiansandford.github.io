@@ -1,5 +1,5 @@
 import React from "react";
-import { Avatar, Box, Button, Card, CardMedia, IconButton, List, ListItemText, Typography } from "@mui/material";
+import { Avatar, Box, Button, Card, CardContent, CardMedia, IconButton, List, ListItemText, Typography } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GMLogo from "../img/general-motors-logo.png"
 import ChristianPic from "../img/christian_pic.jpg"
@@ -79,20 +79,33 @@ function ResumePage() {
       <Card
         sx={{
           borderRadius: 6,
-          width: 300,
-          height: 300,
+          width: 500,
+          height: 500,
           marginTop: 2,
-          marginLeft: "30%",
+          marginLeft: "20%",
           textAlign: "center",
         }}>
         <CardMedia
-          sx={{ height: 150, width: 150, marginX: 10, marginTop: 2 }}
+          sx={{ height: 150, width: 150, marginX: 21, marginTop: 2 }}
           image={GMLogo}
           title="General Motors"
         />
-        <Typography variant="h4" sx={{ fontWeight: 'bold' }}>
-          General Motors
-        </Typography>
+        <CardContent>
+          <Typography variant="h4" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+            General Motors
+          </Typography>
+          <Typography variant="body1" sx={{ fontWeight: 'bold', marginTop: '10px' }}>
+            Software Developer - Full Stack
+          </Typography>
+          <Box border={1}>
+            <List>
+              <ListItemText>Worked on Advisor Workbench Software</ListItemText>
+              <ListItemText>Unit testing</ListItemText>
+              <ListItemText>Application support tickets</ListItemText>
+              <ListItemText>Completed SAFE Agile training and acquired certification</ListItemText>
+            </List>
+          </Box>
+        </CardContent>
       </Card>
     </Box>
   )
