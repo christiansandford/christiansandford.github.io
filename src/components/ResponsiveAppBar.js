@@ -12,7 +12,7 @@ const pages = ["Resume", "Books", "Games"];
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#ff8b13', // orange
+      main: '#14397d', // blue
     }
   },
 })

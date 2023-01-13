@@ -58,11 +58,13 @@ function ResumePage() {
         width="80%"
         justifyContent="center"
         sx={{
-          backgroundColor: '#ff8b13',
-          height:250,
+          backgroundColor: '#77b5d9',
+          height: 250,
+          border: 1,
           borderRadius: 2,
           marginTop: 2,
           marginLeft: "10%",
+          shadow: 2,
         }}
       >
         <Avatar
@@ -95,11 +97,14 @@ function ResumePage() {
         <Card
           aria-label='gm-card'
           sx={{
+            backgroundColor: '#77b5d9',
+            border: 1,
             borderRadius: 6,
             width: 500,
             height: 500,
             marginTop: 2,
             marginLeft: "10%",
+            shadow: 2,
             textAlign: "center",
           }}>
           <CardMedia
@@ -130,11 +135,14 @@ function ResumePage() {
         <Card
           aria-label='education-card'
           sx={{
+            backgroundColor: '#77b5d9',
+            border: 1,
             borderRadius: 6,
             width: 500,
             height: 500,
             marginTop: 2,
             marginLeft: 8,
+            shadow: 2,
             textAlign: "center",
           }}>
           <CardMedia
@@ -160,11 +168,14 @@ function ResumePage() {
         <Card
           aria-label='skills-and-facts-card'
           sx={{
+            backgroundColor: '#77b5d9',
+            border: 1,
             borderRadius: 6,
             width: 500,
             height: 500,
             marginTop: 2,
             marginLeft: 10,
+            shadow: 2,
             textAlign: "center",
           }}>
           <CardMedia
