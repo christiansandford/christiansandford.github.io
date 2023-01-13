@@ -46,7 +46,7 @@ function BooksPage() {
                 textAlign: 'center',
               }}
             >
-              Releasing 2023
+              Releasing Late 2023
             </Typography>
             <Button disabled={true} variant="contained">
               Pre-order Now
