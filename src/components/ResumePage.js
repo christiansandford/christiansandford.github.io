@@ -58,10 +58,11 @@ function ResumePage() {
         width="80%"
         justifyContent="center"
         sx={{
-          backgroundColor: '#77b5d9',
-          height: 250,
-          border: 1,
+          backgroundColor: '#e41376',
+          border: 3,
+          borderColor: '#01c8ee',
           borderRadius: 2,
+          height: 250,
           marginTop: 2,
           marginLeft: "10%",
           shadow: 2,
@@ -71,8 +72,9 @@ function ResumePage() {
           alt="Christian Sandford"
           src={ChristianPic}
           sx={{ 
-            width: 250,
-            height: 250,
+            width: 175,
+            height: 175,
+            marginTop: 3,
           }}
         >
         </Avatar>
@@ -97,8 +99,9 @@ function ResumePage() {
         <Card
           aria-label='gm-card'
           sx={{
-            backgroundColor: '#77b5d9',
-            border: 1,
+            backgroundColor: '#e41376',
+            border: 3,
+            borderColor: '#01c8ee',
             borderRadius: 6,
             width: 500,
             height: 500,
@@ -135,8 +138,9 @@ function ResumePage() {
         <Card
           aria-label='education-card'
           sx={{
-            backgroundColor: '#77b5d9',
-            border: 1,
+            backgroundColor: '#e41376',
+            border: 3,
+            borderColor: '#01c8ee',
             borderRadius: 6,
             width: 500,
             height: 500,
@@ -168,8 +172,9 @@ function ResumePage() {
         <Card
           aria-label='skills-and-facts-card'
           sx={{
-            backgroundColor: '#77b5d9',
-            border: 1,
+            backgroundColor: '#e41376',
+            border: 3,
+            borderColor: '#01c8ee',
             borderRadius: 6,
             width: 500,
             height: 500,
